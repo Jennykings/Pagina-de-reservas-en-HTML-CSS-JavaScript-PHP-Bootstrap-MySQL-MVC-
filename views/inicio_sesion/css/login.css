@@ -1,0 +1,237 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	text-align: center;
+}
+
+form {
+	padding: 50px 20px;
+	background-color: #381b1ba6;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px;
+	
+
+}
+
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: rgb(206, 203, 203);
+	
+}
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px;
+   
+}
+
+ .add {
+	color: #fff;
+	/* background-color: rgb(34, 109, 170); */
+	text-decoration: none;
+} 
+.reg{
+	/* background-color: rgb(118, 170, 34); */
+	text-decoration: none;
+	color: #fff;
+}
+.reg:hover{
+	/* background-color: rgb(34, 170, 95); */
+	text-decoration: none;
+	color: rgb(243, 140, 6);
+}
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff;
+	
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22; 
+	color: #fff
+}
+.blanco{
+ color: white;
+ text-align: center;
+ /* background-color: #a22; */
+}
+body{
+	background-image:url(../IMG/fondolegal.jpg);
+	width: 100%;
+	height:100%;
+	background-size: cover;
+	color:white;
+	
+	
+}
+.mensaje{
+	width: 100%;
+	max-width: 350px;
+	margin: auto;
+	margin-top: 20px;
+	text-align: left;
+	padding: 6px;
+	color: red;
+
+}
+h6 {
+	text-align: center;
+	padding: 12px;
+    color: rgb(206, 203, 203);
+    line-height: 20px;
+	
+}
+.gabo{
+	padding: 50px 20px;
+	background-color: #381b1ba6;
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+    margin-bottom: 30px;
+    line-height: 20px;
+	
+}
+header{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    background-color: rgba(0, 0, 0,.3);
+	
+}
+header h1{
+    margin-left: 5px;
+    align-items: center;
+    width: calc(20% - 100px);
+    font-family: montez;
+    font-size: 55px;
+	
+}
+header a{
+    margin-right: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    transition: all ease 300ms;
+	
+}
+.login-box{
+	background-image:url(../IMG/logogae.png);
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+	
+}
+@media only screen and (min-width:360px) and (max-width:757px){
+	form {
+		padding: 50px 20px;
+		background-color: #381b1ba6;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 70px;
+		padding-top: 28px;
+		margin-bottom: 30px;
+	}
+	input {
+		width: calc(100% - 20px);
+		padding: 9px;
+		margin: auto;
+		margin-top: 12px;
+		font-size: 16px;
+	}
+	body{
+		background-image:url(../IMG/fondolegal.jpg);
+		max-width: 100%;
+		max-height: 200%;
+		background-attachment: fixed; 
+		background-repeat: no-repeat;
+		color:white;
+		
+	}
+
+}
+@media only screen and (min-width:280px) and (max-width:757px){
+	form {
+		padding: 50px 20px;
+		background-color: #381b1ba6;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 70px;
+		padding-top: 28px;
+		margin-bottom: 30px;
+	}
+	input {
+		width: calc(100% - 20px);
+		padding: 9px;
+		margin: auto;
+		margin-top: 12px;
+		font-size: 16px;
+	}
+	body{
+		background-image:url(../IMG/fondolegal.jpg);
+		max-width: 100%;
+		max-height: 200%;
+		background-attachment: fixed; 
+		background-repeat: no-repeat;
+		color:white;
+		
+	}
+
+}
+@media only screen and (min-width:760px) and (max-width:1180px){
+	form {
+		padding: 50px 20px;
+		background-color: #381b1ba6;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 70px;
+		padding-top: 28px;
+		margin-bottom: 30px
+	}
+	input {
+		width: calc(100% - 20px);
+		padding: 20px;
+		margin: auto;
+		margin-top: 12px;
+		font-size: 16px
+	}
+	body{
+		background-image:url(../IMG/fondolegal.jpg);
+		max-width: 100%;
+		max-height: 200%;
+		background-attachment: fixed; 
+		background-repeat: no-repeat;
+		color:white;
+		
+	}
+	.caja{
+		margin-top: 30%;
+	}
+	header h1{
+		margin-left: 10px;
+		align-items: center;
+		width: calc(20% - 100px);
+		font-family: montez;
+		font-size: 80px;
+	}
+}
