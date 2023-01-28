@@ -1,5 +1,5 @@
 # Descripción ✨
-Pagina web de reservas de un restaurante, este proyecto fue elaborado con fines educativos para mi universidad. 
+Página web de reservas de un restaurante, este proyecto fue elaborado con fines educativos para mi universidad. 
 En esta pagina se utilizaron diferentes lenguajes de programación y gran variedad de herramientas tecnológicas para su desarrollo.
 
 # Autor 🖋️
