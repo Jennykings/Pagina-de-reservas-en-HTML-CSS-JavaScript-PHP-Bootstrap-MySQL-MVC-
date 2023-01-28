@@ -13,7 +13,7 @@ Shirley Jennifer Giselle Reyes Aguilar
  Para ver el proyecto en vivo puedes hacer click aqui [https://github.com/Jennykings/Pagina-de-reservas-en-HTML-CSS-JavaScript-PHP-Bootstrap-MySQL-](https://github.com/Jennykings/Pagina-de-reservas-en-HTML-CSS-JavaScript-PHP-Bootstrap-MySQL-)
 
  # Instalación 
- Este proyecto no necesita de instalación. Simplmente importa la base de datos con el mismo nombre y abre la carpeta o haz click en el index.
+ Este proyecto no necesita de instalación. Simplemente nombra el archivo como RESTAURANTE, importa la base de datos con el mismo nombre y abre la carpeta o haz click en el index.
 
 #  Contratación 🔗
 Si quieres contratarme puedes escribirme a jennykings51@gmail.com para consultas. 
