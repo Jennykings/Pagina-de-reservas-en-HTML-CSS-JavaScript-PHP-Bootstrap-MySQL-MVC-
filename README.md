@@ -10,7 +10,7 @@ Shirley Jennifer Giselle Reyes Aguilar
  - [Portafolio Web](https://github.com/Jennykings/Mi_Portafolio)
 
  # Url para ver el resultado en vivo 🚀
- Para ver el proyecto en vivo puedes hacer click aqui [https://jennykings.github.io/Pagina-de-reservas-en-HTML-CSS-JavaScript-PHP-Bootstrap-MySQL-MVC-/]( https://jennykings.github.io/Paginas-de-reserva-en-HTML-CSSs-JavaScripts-PHPs-Bootstraps-MySQLs-NVC-/)
+ Para ver el proyecto en vivo puedes hacer click aqui
 
  # Instalación 
  Este proyecto no necesita de instalación. Simplemente nombra el archivo como RESTAURANTE, importa la base de datos con el mismo nombre y abre la carpeta o haz click en el index.
