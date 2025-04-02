@@ -24,18 +24,18 @@ if($_SESSION["s_usuario"] === null){
      <!-- este si uso la letra -->
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="style.css"> -->
-    <link rel="stylesheet" href="/RESTAURANTE/views/style.css">
+    <link rel="stylesheet" href="../../../../views/style.css">
     <!--favicon-->
-    <link rel="shortcut icon" href="/RESTAURANTE/views/img/utencilios.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../../../../views/img/utencilios.png" type="image/x-icon">
    <!--JS-->
-    <script src="/RESTAURANTE/views/main.js"></script>
+    <script src="../../../../views/main.js"></script>
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 </head> 
 <body id="principio">
 
     <header>
         <a href="./inicio.php" class="logo">
-            <img src="/RESTAURANTE/views/img/utencilios.png" alt="logo de la compañia" class="logo-img">   
+            <img src="../../../../views/img/utencilios.png" alt="logo de la compañia" class="logo-img">   
             <h2 class="logo-nombre">SABOR 
                 PERUANO</h2>
         </a>
@@ -46,7 +46,7 @@ if($_SESSION["s_usuario"] === null){
             <a href="./equipo.php" >EQUIPO</a>
             <a href="./chef.php" class="Chefs">CHEFS</a>
             <a href="./contacto.php">CONTACTOS</a>
-            <a href="/RESTAURANTE/views/index.php" > 
+            <a href="../../../../views/index.php" > 
                <?php echo $_SESSION["s_usuario"];?>
                <i class="fas fa-fw fa-eye-slash"></i>
                </a>  
@@ -57,7 +57,7 @@ if($_SESSION["s_usuario"] === null){
 
 <div class="contenedor">
     <figure>
-        <img src="/RESTAURANTE/views/img/platillos.jpg" alt="">
+        <img src="../../../../views/img/platillos.jpg" alt="">
         <div class="Capa">
             <h3>Nuestro Equipo</h3>
             <nav>
@@ -82,14 +82,14 @@ if($_SESSION["s_usuario"] === null){
     <div class="cap"> 
 <div class="ordencuadros">
     <div class="integrantes">
-        <center><img src="/RESTAURANTE/views/img/chef1.jpg" alt="" height="200" width="200"></center>
+        <center><img src="../../../../views/img/chef1.jpg" alt="" height="200" width="200"></center>
         <h5>Quintana Gabarri, Francisco Jose</h5>
         <p class="cargo">Chef cocina</p>
     </div>
 </div>
 <div class="ordencuadros">
     <div class="integrantes">
-        <center><img src="/RESTAURANTE/views/img/chef2.jpg" alt="" height="200" width="200"></center>
+        <center><img src="../../../../views/img/chef2.jpg" alt="" height="200" width="200"></center>
         <h5>Palomino Zambrano, Elsa Elisa</h5>
         <p class="cargo">Chef repostero</p>
     </div>
@@ -98,14 +98,14 @@ if($_SESSION["s_usuario"] === null){
  <div class="cap"> 
 <div class="ordencuadros">
     <div class="integrantes">
-        <center><img src="/RESTAURANTE/views/img/chef3.JPG" alt="" height="200" width="200"></center>
+        <center><img src="../../../../views/img/chef3.JPG" alt="" height="200" width="200"></center>
         <h5>Perez Cuadro, Adrian Camilo</h5>
         <p class="cargo">Aprendiz</p>
     </div>
 </div>
 <div class="ordencuadros">
     <div class="integrantes">
-        <center><img src="/RESTAURANTE/views/img/chef4.JPG" alt="" height="200" width="200" ></center>
+        <center><img src="../../../../views/img/chef4.JPG" alt="" height="200" width="200" ></center>
         <h5>Blanco Melgar, Miguel Angel</h5>
         <p class="cargo">Chef garde manger</p> 
     </div>
@@ -203,7 +203,7 @@ if($_SESSION["s_usuario"] === null){
 <!-- fin chatbot -->
 
 <!--SUBIR-->
-<a href="#principio"><img src="/RESTAURANTE/views/img/flecha.png" id="botonArriba"></a>
+<a href="#principio"><img src="../../../../views/img/flecha.png" id="botonArriba"></a>
 <!--FIN SUBIR-->
 <!--REDES SOCIALES-->
 <div class="container-bar">
@@ -211,12 +211,12 @@ if($_SESSION["s_usuario"] === null){
 	<label for="btn-social" class="fa fa-play"></label>
 		<div class="icon-social">
 <div class="redes">
-    <a href="https://www.facebook.com/Sabor-Peruano-108879951845641/" class="iconred icon-f"  target="_blank"><img src="/RESTAURANTE/views/img/facebook.png" alt="" height="30px" width="30px" id="#fb"></a>
-    <a href="https://www.instagram.com/sabor__peruano/" class="iconred icon-i"  target="_blank"><img src="/RESTAURANTE/views/img/instagram.jpeg" alt="" height="30px" width="30px" id="#in"></a>
-    <a href="https://wa.me/message/LZ7N3UWBEWMLL1" class="iconred icon-w"  target="_blank"><img src="/RESTAURANTE/views/img/whatsapp.png" alt="" height="30px" width="30px" id="#wp"></a>
-    <a href="https://twitter.com/Sabor__Peruano?t=JOo6TanXffz4fI0e92oRgA&s=08" class="iconred icon-t"  target="_blank"><img src="/RESTAURANTE/views/img/twitter.png" alt="" height="30px" width="30px" id="#tw"></a>
-    <a href="https://vm.tiktok.com/ZMNe4f96W/" class="iconred icon-ti"  target="_blank"><img src="/RESTAURANTE/views/img/tiktok.jpeg" alt="" height="30px" width="30px" id="#tk"></a>
-    <a href="https://www.youtube.com/channel/UC2dNb7ACjBbWHu3xnqxZmpA" class="iconred icon-y"  target="_blank"><img src="/RESTAURANTE/views/img/youtube.png" alt="" height="30px" width="30px" id="#yt"></a>
+    <a href="https://www.facebook.com/Sabor-Peruano-108879951845641/" class="iconred icon-f"  target="_blank"><img src="../../../../views/img/facebook.png" alt="" height="30px" width="30px" id="#fb"></a>
+    <a href="https://www.instagram.com/sabor__peruano/" class="iconred icon-i"  target="_blank"><img src="../../../../views/img/instagram.jpeg" alt="" height="30px" width="30px" id="#in"></a>
+    <a href="https://wa.me/message/LZ7N3UWBEWMLL1" class="iconred icon-w"  target="_blank"><img src="../../../../views/img/whatsapp.png" alt="" height="30px" width="30px" id="#wp"></a>
+    <a href="https://twitter.com/Sabor__Peruano?t=JOo6TanXffz4fI0e92oRgA&s=08" class="iconred icon-t"  target="_blank"><img src="../../../../views/img/twitter.png" alt="" height="30px" width="30px" id="#tw"></a>
+    <a href="https://vm.tiktok.com/ZMNe4f96W/" class="iconred icon-ti"  target="_blank"><img src="../../../../views/img/tiktok.jpeg" alt="" height="30px" width="30px" id="#tk"></a>
+    <a href="https://www.youtube.com/channel/UC2dNb7ACjBbWHu3xnqxZmpA" class="iconred icon-y"  target="_blank"><img src="../../../../views/img/youtube.png" alt="" height="30px" width="30px" id="#yt"></a>
 </div>
 </div>
 </div>
