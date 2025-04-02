@@ -1,8 +1,8 @@
-<?php require_once "inicio_sesion/dashboard/vistas/parte_superior.php"?>
+<?php require_once "../views/inicio_sesion/dashboard/vistas/parte_superior.php"?>
 
 <!--INICIO del cont principal-->
 <div class="container">
-<center><img src="/RESTAURANTE/views/img/pp3.jpg" alt="" class="col-md-12"></center><br>
+<center><img src="../views/img/pp3.jpg" alt="" class="col-md-12"></center><br>
 
     <h1>Registro de Administradores</h1>
 
@@ -157,4 +157,4 @@ $dat=mysqli_fetch_array($query);
 </div>
 <!--FIN del cont principal-->
 
-<?php require_once "inicio_sesion/dashboard/vistas/parte_inferior.php"?>
+<?php require_once "../views/inicio_sesion/dashboard/vistas/parte_inferior.php"?>
