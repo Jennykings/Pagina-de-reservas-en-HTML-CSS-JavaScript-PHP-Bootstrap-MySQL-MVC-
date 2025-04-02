@@ -12,6 +12,6 @@ $sql="UPDATE users SET  usuario='$usuario',correo='$correo',password='$password'
 $query=mysqli_query($con,$sql);
 
     if($query){
-        Header("Location: /RESTAURANTE/views/index.php");
+        Header("Location: ../views/index.php");
     }
 ?>

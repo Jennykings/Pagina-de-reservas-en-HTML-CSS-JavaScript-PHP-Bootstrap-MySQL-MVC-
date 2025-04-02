@@ -17,7 +17,7 @@ $sql="INSERT INTO reservas VALUES('$id','$nombre','$email','$fecha','$hora','$pe
 $query= mysqli_query($con,$sql);
 
 if($query){
-     Header("Location: /RESTAURANTE/views/PReservas.php"); 
+     Header("Location: ../views/PReservas.php"); 
  
 }else {
 }

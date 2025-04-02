@@ -9,6 +9,6 @@ $sql="DELETE FROM admin  WHERE id='$id'"; /*$cod_estudiante  */
 $query=mysqli_query($con,$sql);
 
     if($query){
-        Header("Location: /RESTAURANTE/views/PAdministradores.php");
+        Header("Location: ../views/PAdministradores.php");
     }
 ?>

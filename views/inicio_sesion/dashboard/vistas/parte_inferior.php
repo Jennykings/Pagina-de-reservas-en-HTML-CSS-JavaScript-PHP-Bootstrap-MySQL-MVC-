@@ -36,7 +36,7 @@
         <div class="modal-body"></div>
         <div class="modal-footer">
           <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-          <a class="btn btn-primary" href="/RESTAURANTE/controllers/controlador_logout.php">Salir</a>
+          <a class="btn btn-primary" href="../controllers/controlador_logout.php">Salir</a>
   
         </div>
       </div>
@@ -44,22 +44,22 @@
   </div>
 
   <!-- Bootstrap core JavaScript-->
-  <script src="/RESTAURANTE/views/inicio_sesion/dashboard/vendor/jquery/jquery.min.js"></script>
-  <script src="/RESTAURANTE/views/inicio_sesion/dashboard/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../views/inicio_sesion/dashboard/vendor/jquery/jquery.min.js"></script>
+  <script src="../views/inicio_sesion/dashboard/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Core plugin JavaScript-->
-  <script src="/RESTAURANTE/views/inicio_sesion/dashboard/vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="../views/inicio_sesion/dashboard/vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for all pages-->
-  <script src="/RESTAURANTE/views/inicio_sesion/dashboard/js/sb-admin-2.min.js"></script>
+  <script src="../views/inicio_sesion/dashboard/js/sb-admin-2.min.js"></script>
 
  
 
   
     <!-- datatables JS -->
-    <script type="text/javascript" src="../vendor/datatables/datatables.min.js"></script>    
+    <script type="text/javascript" src="../views/inicio_sesion/dashboard/vendor/datatables/datatables.min.js"></script>    
     <!-- código propio JS --> 
-    <script type="text/javascript" src="/RESTAURANTE/views/inicio_sesion/dashboard/main.js"></script>   
+    <script type="text/javascript" src="../views/inicio_sesion/dashboard/main.js"></script>   
     
 
     

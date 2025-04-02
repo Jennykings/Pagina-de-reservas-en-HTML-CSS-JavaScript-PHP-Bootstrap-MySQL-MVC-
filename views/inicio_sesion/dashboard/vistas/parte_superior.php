@@ -2,7 +2,7 @@
 session_start();
 
 if($_SESSION["s_usuario"] === null){
-    header("Location: ../../../../views/inicio_sesion/index.php");
+    header("Location: ../views/inicio_sesion/index.php");
 }
 
 ?>
@@ -21,19 +21,19 @@ if($_SESSION["s_usuario"] === null){
   <title>Sabor peruabo</title>
 
   <!--favicon-->
-<link rel="shortcut icon" href="../../../../views/img/utencilios.png" type="image/x-icon">
+<link rel="shortcut icon" href="../views/img/utencilios.png" type="image/x-icon">
 
   <!-- Custom fonts for this template-->
-  <link href="../../../../views/inicio_sesion/dashboard/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="../views/inicio_sesion/dashboard/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
   <!-- Custom styles for this template-->
-  <link href="../../../../views/inicio_sesion/dashboard/css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="../views/inicio_sesion/dashboard/css/sb-admin-2.min.css" rel="stylesheet">
 
     <!--datables CSS básico-->
-    <link rel="stylesheet" type="text/css" href="../../../../views/inicio_sesion/dashboard/vendor/datatables/datatables.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../views/inicio_sesion/dashboard/vendor/datatables/datatables.min.css"/>
     <!--datables estilo bootstrap 4 CSS-->  
-    <link rel="stylesheet"  type="text/css" href="../../../../views/inicio_sesion/dashboard/vendor/datatables/DataTables-1.10.18/css/dataTables.bootstrap4.min.css">      
+    <link rel="stylesheet"  type="text/css" href="../views/inicio_sesion/dashboard/vendor/datatables/DataTables-1.10.18/css/dataTables.bootstrap4.min.css">      
     
 </head>
 
@@ -82,15 +82,15 @@ if($_SESSION["s_usuario"] === null){
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Hacer modificación:</h6>
-            <a class="collapse-item" href="../../../../views/PReservas.php">Reservas</a>
-            <a class="collapse-item" href="../../../../views/PAdministradores.php">Administradores</a>
+            <a class="collapse-item" href="../views/PReservas.php">Reservas</a>
+            <a class="collapse-item" href="../views/PAdministradores.php">Administradores</a>
           </div>
         </div>
       </li>
 
 <!-- Nav Item - Pages Collapse Menu -->
 <li class="nav-item"> 
-        <a class="nav-link collapsed" href="../../../../views/inicio_sesion/dashboard/visualizar/inicio.php">
+        <a class="nav-link collapsed" href="../views/inicio_sesion/dashboard/visualizar/inicio.php">
           <i class="fas fa-fw fa-eye"></i> 
           <span >Visualizar</span>  
         </a>
@@ -172,7 +172,7 @@ if($_SESSION["s_usuario"] === null){
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $_SESSION["s_usuario"];?></span>
 
-                <img class="img-profile rounded-circle" src="../../../../views/inicio_sesion/dashboard/img/user.png">
+                <img class="img-profile rounded-circle" src="../views/inicio_sesion/dashboard/img/user.png">
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">

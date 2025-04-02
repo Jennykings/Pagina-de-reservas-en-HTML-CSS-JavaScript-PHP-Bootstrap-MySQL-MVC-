@@ -9,6 +9,6 @@ $sql="DELETE FROM users  WHERE id='$id'"; /*$cod_estudiante  */
 $query=mysqli_query($con,$sql);
 
     if($query){
-        Header("Location: /RESTAURANTE/views/index.php");
+        Header("Location: ../views/index.php");
     }
 ?>

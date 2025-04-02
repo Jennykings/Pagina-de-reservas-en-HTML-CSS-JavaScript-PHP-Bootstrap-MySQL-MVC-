@@ -9,6 +9,6 @@ $sql="DELETE FROM reservas  WHERE id='$id'"; /*$cod_estudiante  */
 $query=mysqli_query($con,$sql);
 
     if($query){
-        Header("Location: /RESTAURANTE/views/PReservas.php"); 
+        Header("Location: ../views/PReservas.php"); 
     }
 ?>

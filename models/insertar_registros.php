@@ -12,7 +12,7 @@ $sql="INSERT INTO users VALUES('$id','$usuario','$correo','$password')";
 $query= mysqli_query($con,$sql);
 
 if($query){
-    Header("Location: /RESTAURANTE/views/index.php");
+    Header("Location: ../views/index.php");
     
 }else {
 }

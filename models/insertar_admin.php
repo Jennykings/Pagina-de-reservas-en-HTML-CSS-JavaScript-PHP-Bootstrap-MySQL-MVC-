@@ -12,7 +12,7 @@ $sql="INSERT INTO admin VALUES('$id','$usuario','$correo','$password')";
 $query= mysqli_query($con,$sql);
 
 if($query){
-    Header("Location: /RESTAURANTE/views/PAdministradores.php");
+    Header("Location: ../views/PAdministradores.php");
     
 }else {
 }

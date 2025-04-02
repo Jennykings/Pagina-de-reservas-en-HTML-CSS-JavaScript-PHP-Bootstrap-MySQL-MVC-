@@ -17,6 +17,6 @@ $sql="UPDATE reservas SET  nombre='$nombre',email='$email',fecha='$fecha',hora='
 $query=mysqli_query($con,$sql);
 
     if($query){
-        Header("Location: /RESTAURANTE/views/PReservas.php"); 
+        Header("Location: ../views/PReservas.php"); 
     }
 ?>

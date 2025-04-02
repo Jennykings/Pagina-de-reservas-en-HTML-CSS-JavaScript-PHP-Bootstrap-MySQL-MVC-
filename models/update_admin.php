@@ -12,6 +12,6 @@ $sql="UPDATE admin SET  usuario='$usuario',correo='$correo',password='$password'
 $query=mysqli_query($con,$sql);
 
     if($query){
-        Header("Location: /RESTAURANTE/views/PAdministradores.php");
+        Header("Location: ../views/PAdministradores.php");
     }
 ?>
