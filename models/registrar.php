@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/RESTAURANTE/views/inicio_sesion/css_register/register.css">
+<link rel="stylesheet" href="../views/inicio_sesion/css_register/register.css">
 <?php
 /* error_reporting(0); */
  $correo=$_POST['correo'];

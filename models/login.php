@@ -37,7 +37,7 @@ if($resul->rowCount() >= 1){
     print json_encode($data);
   $conexion=null;  
 
-  header("location: /RESTAURANTE/views/index.php");
+  header("location: ../views/index.php");
   
 
 }else if($resultado->rowCount() >= 1){
@@ -47,7 +47,7 @@ if($resul->rowCount() >= 1){
     print json_encode($data);
   $conexion=null;  
 
-  header("location: /RESTAURANTE/views/inicio_sesion/reserva.php"); 
+  header("location: ../views/inicio_sesion/reserva.php"); 
 
   
 
